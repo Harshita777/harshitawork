@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    background-image: url(../assets/images/sampleCar.jpg);
+}
+
+#fake-car-image{
+    margin-top:30px ;
+    text-align: center;
+}
+
+#searchBox{
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+#inputField{
+    padding-left: 10px;
+    width: 300px;
+    height: 37px;
+    margin: 0px;
+    border: 0px;
+    background-color: white;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+#inputField::selection{
+    outline: none;
+    border: 0px;
+
+}
+#searchButton{
+    margin: 0px;
+    height: 37px;
+    width: 90px;
+    background-color: rgb(129, 129, 129);
+    border: 0px;
+    font-weight: bold;
+    font-size: 17px;
+    color: azure;
+}
